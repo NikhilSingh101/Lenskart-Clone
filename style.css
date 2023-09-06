@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Aboreto', cursive; */
+    /* font-family: 'Bebas Neue', cursive; */
+    /* font-family: 'Kanit', sans-serif; */
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.fnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.fnav input{
+    width: 300px;
+    height: 27px;
+    border-radius: 3px;
+    text-align: center;
+    border: 2px solid gray;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.fnav p{
+    margin-top: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.snav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 11px;
+    background-color: rgb(194, 187, 187);
+}
+
+.snav p:hover{
+    border-bottom: 2px solid rgb(8, 8, 58);
+    cursor: pointer;
+    color: rgb(3, 3, 109);
+    /* font-weight: 600; */
+}
+
+.snav img{
+    width: 5%;
+}
+
+.lens{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 5px solid rgb(129, 114, 114);
+    border-bottom: 5px solid rgb(134, 120, 120);
+    /* padding: 10px; */
+}
+
+.lens img{
+    width: 18%;
+    border: 2px solid white;
+    border-radius: 5px;
+    /* padding: 11px; */
+}
+
+.main img{
+    width: 100%;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 11px;
+}
+
+.cart .card{
+    text-align: center;
+}
+
+.card button{
+    width: 100px;
+    height: 33px;
+    color: white;
+    background-color: rgb(3, 156, 156);
+    border-radius: 2px;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.card p{
+    font-size: 16px;
+}
+
+.cart .card img{
+    width: 70%;
+}
+
+.banner h2{
+    text-align: center;
+    padding: 32px;
+}
+
+.banner .img img{
+    width: 100%;
+}
+
+.banner .t-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.t-img img{
+    width: 50%;
+}
+
+.main-img img{
+    width: 100%;
+}
+
+.goagle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    background-color: rgb(20, 20, 88);
+    color: white;
+    padding: 43px;
+}
+
+.footer .list ul{
+    list-style: none;
+}
+
+.footer .list ul a{
+    color: white;
+    text-decoration: none;
+}
+
